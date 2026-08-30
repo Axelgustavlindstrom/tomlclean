@@ -1,0 +1,28 @@
+[project]
+name = "tomlclean"
+version = "0.1.0"
+description = "Normalize TOML formatting: trailing whitespace, blank lines, and alphabetical key ordering."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "ProjectCreationAgent" }]
+keywords = ["toml", "cleaner", "formatter", "linter"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+tomlclean = "tomlclean:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["tomlclean"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
