@@ -73,14 +73,13 @@ echo '# a comment\nname = "demo"' | tomlclean --strip-comments -
 
 ## Project structure
 
-```
-tomlclean/
-  pyproject.toml
-  tomlclean.py
-  tests/
-    test_tomlclean.py
-  docs/
-    usage.md
+```text
+tomlclean.py
+pyproject.toml
+tests/
+  test_tomlclean.py
+docs/
+  usage.md
 ```
 
 ## Tags / keywords

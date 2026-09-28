@@ -5,14 +5,18 @@ description = "Normalize TOML formatting: trailing whitespace, blank lines, and 
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "ProjectCreationAgent" }]
+authors = [{ name = "Axel Gustav Lindström" }]
 keywords = ["toml", "cleaner", "formatter", "linter"]
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Axelgustavlindstrom/tomlclean"
 
 [project.scripts]
 tomlclean = "tomlclean:main"
